@@ -1,14 +1,16 @@
-// Initialize values
+// Initializing cells ===========================================================================
+
 //Run loop 10 times
 ++++++++++ //Cell 0 = 10
 [
 >+++++++ // Cell 1 = 7*10
 >++++++++ // Cell 2 = 8*10
 >+++ // Cell 3 = 3*10
-<<<- // Setting the pointer back to cell 0 & decrement its value
+<<<- // Setting the pointer back to cell 0 & decrementing its value
 ] // end of loop
 
-// Printing ASCII values w the numbers stored in our cells
+
+// Printing ASCII values w the numbers stored in our cells =====================================
 
 // Move to cell 1
 >++.---. // Printing "HE"(ASCII 72, 69)
